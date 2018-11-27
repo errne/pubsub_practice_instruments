@@ -27,7 +27,7 @@ InstrumentInfoView.prototype.render = function(instrument){
   this.container.appendChild(infoParagraph);
   this.container.appendChild(infoListHeading);
 
-  instrumentsList.forEach(function(instrument) {
+  instrumentsList.forEach((instrument) => {
     const infoListItem = document.createElement('li');
     infoListItem.textContent = instrument;
       this.container.appendChild(infoListItem);

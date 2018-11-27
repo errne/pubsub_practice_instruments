@@ -1,5 +1,7 @@
 body {
   background: linear-gradient(to left, #000046, #1cb5e0);
+  margin-left: 35px;
+  margin-right: 250px;
 }
 
 h1{
